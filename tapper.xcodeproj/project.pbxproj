@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCDDA60D1BF2B40500C6944C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDDA60C1BF2B40500C6944C /* AppDelegate.swift */; };
+		FCDDA60F1BF2B40500C6944C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDDA60E1BF2B40500C6944C /* ViewController.swift */; };
+		FCDDA6121BF2B40500C6944C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDDA6101BF2B40500C6944C /* Main.storyboard */; };
+		FCDDA6141BF2B40500C6944C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCDDA6131BF2B40500C6944C /* Assets.xcassets */; };
+		FCDDA6171BF2B40500C6944C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDDA6151BF2B40500C6944C /* LaunchScreen.storyboard */; };
+		FCDDA6221BF2B40500C6944C /* tapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDDA6211BF2B40500C6944C /* tapperTests.swift */; };
+		FCDDA62D1BF2B40500C6944C /* tapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDDA62C1BF2B40500C6944C /* tapperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCDDA61E1BF2B40500C6944C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCDDA6011BF2B40500C6944C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCDDA6081BF2B40500C6944C;
+			remoteInfo = tapper;
+		};
+		FCDDA6291BF2B40500C6944C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCDDA6011BF2B40500C6944C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCDDA6081BF2B40500C6944C;
+			remoteInfo = tapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCDDA6091BF2B40500C6944C /* tapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDDA60C1BF2B40500C6944C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCDDA60E1BF2B40500C6944C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCDDA6111BF2B40500C6944C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCDDA6131BF2B40500C6944C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCDDA6161BF2B40500C6944C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCDDA6181BF2B40500C6944C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCDDA61D1BF2B40500C6944C /* tapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDDA6211BF2B40500C6944C /* tapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapperTests.swift; sourceTree = "<group>"; };
+		FCDDA6231BF2B40500C6944C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCDDA6281BF2B40500C6944C /* tapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDDA62C1BF2B40500C6944C /* tapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapperUITests.swift; sourceTree = "<group>"; };
+		FCDDA62E1BF2B40500C6944C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCDDA6061BF2B40500C6944C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDDA61A1BF2B40500C6944C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDDA6251BF2B40500C6944C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCDDA6001BF2B40500C6944C = {
+			isa = PBXGroup;
+			children = (
+				FCDDA60B1BF2B40500C6944C /* tapper */,
+				FCDDA6201BF2B40500C6944C /* tapperTests */,
+				FCDDA62B1BF2B40500C6944C /* tapperUITests */,
+				FCDDA60A1BF2B40500C6944C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCDDA60A1BF2B40500C6944C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCDDA6091BF2B40500C6944C /* tapper.app */,
+				FCDDA61D1BF2B40500C6944C /* tapperTests.xctest */,
+				FCDDA6281BF2B40500C6944C /* tapperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCDDA60B1BF2B40500C6944C /* tapper */ = {
+			isa = PBXGroup;
+			children = (
+				FCDDA60C1BF2B40500C6944C /* AppDelegate.swift */,
+				FCDDA60E1BF2B40500C6944C /* ViewController.swift */,
+				FCDDA6101BF2B40500C6944C /* Main.storyboard */,
+				FCDDA6131BF2B40500C6944C /* Assets.xcassets */,
+				FCDDA6151BF2B40500C6944C /* LaunchScreen.storyboard */,
+				FCDDA6181BF2B40500C6944C /* Info.plist */,
+			);
+			path = tapper;
+			sourceTree = "<group>";
+		};
+		FCDDA6201BF2B40500C6944C /* tapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCDDA6211BF2B40500C6944C /* tapperTests.swift */,
+				FCDDA6231BF2B40500C6944C /* Info.plist */,
+			);
+			path = tapperTests;
+			sourceTree = "<group>";
+		};
+		FCDDA62B1BF2B40500C6944C /* tapperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCDDA62C1BF2B40500C6944C /* tapperUITests.swift */,
+				FCDDA62E1BF2B40500C6944C /* Info.plist */,
+			);
+			path = tapperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCDDA6081BF2B40500C6944C /* tapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDDA6311BF2B40500C6944C /* Build configuration list for PBXNativeTarget "tapper" */;
+			buildPhases = (
+				FCDDA6051BF2B40500C6944C /* Sources */,
+				FCDDA6061BF2B40500C6944C /* Frameworks */,
+				FCDDA6071BF2B40500C6944C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tapper;
+			productName = tapper;
+			productReference = FCDDA6091BF2B40500C6944C /* tapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCDDA61C1BF2B40500C6944C /* tapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDDA6341BF2B40500C6944C /* Build configuration list for PBXNativeTarget "tapperTests" */;
+			buildPhases = (
+				FCDDA6191BF2B40500C6944C /* Sources */,
+				FCDDA61A1BF2B40500C6944C /* Frameworks */,
+				FCDDA61B1BF2B40500C6944C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCDDA61F1BF2B40500C6944C /* PBXTargetDependency */,
+			);
+			name = tapperTests;
+			productName = tapperTests;
+			productReference = FCDDA61D1BF2B40500C6944C /* tapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCDDA6271BF2B40500C6944C /* tapperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDDA6371BF2B40500C6944C /* Build configuration list for PBXNativeTarget "tapperUITests" */;
+			buildPhases = (
+				FCDDA6241BF2B40500C6944C /* Sources */,
+				FCDDA6251BF2B40500C6944C /* Frameworks */,
+				FCDDA6261BF2B40500C6944C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCDDA62A1BF2B40500C6944C /* PBXTargetDependency */,
+			);
+			name = tapperUITests;
+			productName = tapperUITests;
+			productReference = FCDDA6281BF2B40500C6944C /* tapperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCDDA6011BF2B40500C6944C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Julien Guanzon";
+				TargetAttributes = {
+					FCDDA6081BF2B40500C6944C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					FCDDA61C1BF2B40500C6944C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = FCDDA6081BF2B40500C6944C;
+					};
+					FCDDA6271BF2B40500C6944C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = FCDDA6081BF2B40500C6944C;
+					};
+				};
+			};
+			buildConfigurationList = FCDDA6041BF2B40500C6944C /* Build configuration list for PBXProject "tapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCDDA6001BF2B40500C6944C;
+			productRefGroup = FCDDA60A1BF2B40500C6944C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCDDA6081BF2B40500C6944C /* tapper */,
+				FCDDA61C1BF2B40500C6944C /* tapperTests */,
+				FCDDA6271BF2B40500C6944C /* tapperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCDDA6071BF2B40500C6944C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDDA6171BF2B40500C6944C /* LaunchScreen.storyboard in Resources */,
+				FCDDA6141BF2B40500C6944C /* Assets.xcassets in Resources */,
+				FCDDA6121BF2B40500C6944C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDDA61B1BF2B40500C6944C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDDA6261BF2B40500C6944C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCDDA6051BF2B40500C6944C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDDA60F1BF2B40500C6944C /* ViewController.swift in Sources */,
+				FCDDA60D1BF2B40500C6944C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDDA6191BF2B40500C6944C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDDA6221BF2B40500C6944C /* tapperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDDA6241BF2B40500C6944C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDDA62D1BF2B40500C6944C /* tapperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCDDA61F1BF2B40500C6944C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCDDA6081BF2B40500C6944C /* tapper */;
+			targetProxy = FCDDA61E1BF2B40500C6944C /* PBXContainerItemProxy */;
+		};
+		FCDDA62A1BF2B40500C6944C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCDDA6081BF2B40500C6944C /* tapper */;
+			targetProxy = FCDDA6291BF2B40500C6944C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCDDA6101BF2B40500C6944C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCDDA6111BF2B40500C6944C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCDDA6151BF2B40500C6944C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCDDA6161BF2B40500C6944C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCDDA62F1BF2B40500C6944C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCDDA6301BF2B40500C6944C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCDDA6321BF2B40500C6944C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julienguanzon.tapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCDDA6331BF2B40500C6944C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julienguanzon.tapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCDDA6351BF2B40500C6944C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julienguanzon.tapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tapper.app/tapper";
+			};
+			name = Debug;
+		};
+		FCDDA6361BF2B40500C6944C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julienguanzon.tapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tapper.app/tapper";
+			};
+			name = Release;
+		};
+		FCDDA6381BF2B40500C6944C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tapperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julienguanzon.tapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tapper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FCDDA6391BF2B40500C6944C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tapperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julienguanzon.tapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tapper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCDDA6041BF2B40500C6944C /* Build configuration list for PBXProject "tapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDDA62F1BF2B40500C6944C /* Debug */,
+				FCDDA6301BF2B40500C6944C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCDDA6311BF2B40500C6944C /* Build configuration list for PBXNativeTarget "tapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDDA6321BF2B40500C6944C /* Debug */,
+				FCDDA6331BF2B40500C6944C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCDDA6341BF2B40500C6944C /* Build configuration list for PBXNativeTarget "tapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDDA6351BF2B40500C6944C /* Debug */,
+				FCDDA6361BF2B40500C6944C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCDDA6371BF2B40500C6944C /* Build configuration list for PBXNativeTarget "tapperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDDA6381BF2B40500C6944C /* Debug */,
+				FCDDA6391BF2B40500C6944C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCDDA6011BF2B40500C6944C /* Project object */;
+}
